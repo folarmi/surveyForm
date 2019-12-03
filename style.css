@@ -3,6 +3,7 @@ body{
     margin: 0;
     box-sizing: border-box;
     font-size: 20px;
+    line-height: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color:white;
     background-image: url(./teacher.jpg);
@@ -28,7 +29,7 @@ body{
 }
 
 #survey-form{
-    padding: 30px 5px 15px 20px;
+    padding: 30px 5px 15px 50px;
 }
 
 .textBox{
@@ -39,8 +40,8 @@ body{
 }
 
 .textArea{
-    width: 40%;
-    height: 60px;
+    width: 90%;
+    height: 90px;
 }
 
 #submit{
@@ -51,4 +52,5 @@ body{
 
 ::placeholder {
     padding-left: 12px;
+    font-style: italic;
 }
