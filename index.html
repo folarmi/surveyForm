@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="upper">
+            <h1 id="title"> My Survey Form</h1>
+            <p id="description"> A survey form to help improve my method of teaching</p>
+    </div>
+
+    <div class="wrapper">
+        <form action="" id="survey-form">
+            Name <br> <label for="name" id="name-label"> 
+                <input type="text" name="" id="name" class = "textBox" placeholder="Please enter your name">
+            </label>  <br>
+            Email <br> <label for="email" id="email-label"> 
+                <input type="email" name="" id="email"  class = "textBox" placeholder="Enter your email">
+            </label>  <br>
+            Age <br> <label for="age" id="age-label">
+                <input type="number" name="" id="number" class = "textBox" placeholder="How old are you?" min="0" max="16"> <br>
+            </label> 
+            What subject do i take you? <br>
+            <select name="" id="dropdown"class = "textBox" >
+                <option value="mathematics"> Mathematics </option>
+                <option value="ict"> Information and Communication Technology</option>
+                <option value="QR"> Quantitative Reasoning </option>
+                <option value="BST"> Basic Science and Technology </option>
+                <option value=" Physics"> Physics </option>
+                <option value="Verbal"> Verbal Reasoning </option>
+            </select> <br>
+            
+            Did you enjoy taking my class? <br>
+            <input type="radio" name="enjoy" id=""> Yes
+            <input type="radio" name="enjoy" id=""> No <br>
+
+            Would you recommend taking my class to friend? <br>
+            <input type="radio" name="recommend" id=""> Definitely
+            <input type="radio" name="recommend" id=""> Never
+            <input type="radio" name="recommend" id=""> Maybe <br>
+
+            What part of my class do you enjoy? (Select all that apply) <br>
+            <input type="checkbox" name="" id="" value="note"> Note Writing
+            <input type="checkbox" name="" id="" value="explain"> Explanation
+            <input type="checkbox" name="" id="" value="handsOn"> Hands on Activities
+            <input type="checkbox" name="" id="" value="group"> Group discussions
+            <input type="checkbox" name="" id="" value="joke"> Cracking of Jokes <br>
+
+            What is it you do not like about my class? <br>
+            <textarea name="" id="notLike" class = "textArea" cols="30" rows="10"></textarea> <br>
+
+            Any comments or suggestions? <br>
+            <textarea name="" id=""  class ="textArea" cols="30" rows="10"></textarea> <br>
+
+            <button type="submit" id="submit"> Submit </button>
+            
+        </form>
+    </div>
+</body>
+</html>

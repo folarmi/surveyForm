@@ -1,0 +1,54 @@
+body{
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+    background-image: url(./teacher.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.upper{
+    margin: 0px auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.wrapper{
+    margin:0px auto;
+    width:60%;
+    min-height: 100%;
+    background-color: teal;
+    line-height: 40px;
+}
+
+#survey-form{
+    padding: 30px 5px 15px 20px;
+}
+
+.textBox{
+    width:95%;
+    height: 35px;
+    border-radius: 4px;
+    text-align: justify;
+}
+
+.textArea{
+    width: 40%;
+    height: 60px;
+}
+
+#submit{
+    width: 95%;
+    height: 40px;
+    background-color: seagreen;
+}
+
+::placeholder {
+    padding-left: 12px;
+}
