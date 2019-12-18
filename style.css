@@ -1,5 +1,6 @@
 body{
-    width: 100%;
+    overflow-x: hidden;
+    /* width: 100%; */
     box-sizing: border-box;
     padding-bottom: 60px;
     font-size: 20px;
@@ -26,6 +27,8 @@ body{
 }
 
 #survey-form{
+    /* width:85%;
+    max-width: 600px; */
     padding: 30px 5px 35px 45px;
     line-height: 50px;
 }
@@ -39,24 +42,27 @@ body{
 
 .textArea{
     width: 90%;
-    height: 100px;
+    height: 150px;
     padding: 12px 20px;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
-
     text-indent:20px;
 }
 
 #submit{
-    width: 30%;
+    /* box-shadow: lightgrey; */
+    width: 40%;
     height: 40px;
     background-color: seagreen;
     margin: auto;
     cursor: pointer;
+    text-align: center;
+    padding-left: 30px;
 }
 
 ::placeholder {
+    font-size: 20px;
     padding-left: 12px;
     font-style: italic;
 }
@@ -76,3 +82,4 @@ select {
     border-radius: 4px;
     background-color: #f1f1f1;
 }
+
