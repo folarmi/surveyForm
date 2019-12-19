@@ -22,14 +22,12 @@ body{
 
 .wrapper{
     margin:0px auto;
-    width:60%;
+    max-width:800px;
     background-color: teal;
     line-height: 40px;
 }
 
 #survey-form{
-    /* width:85%;
-    max-width: 600px; */
     padding: 30px 5px 35px 45px;
     line-height: 50px;
 }
@@ -52,7 +50,6 @@ body{
 }
 
 #submit{
-    /* box-shadow: lightgrey; */
     width: 40%;
     height: 40px;
     background-color: seagreen;
@@ -94,6 +91,7 @@ select {
 
 optgroup{
     font-size: 15px;
+    font-family: 'Lobster', cursive;
 }
 
 label{
