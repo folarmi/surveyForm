@@ -4,8 +4,9 @@ body{
     box-sizing: border-box;
     padding-bottom: 60px;
     font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lobster', cursive;
     color:white;
+    image-rendering: -webkit-optimize-contrast;
     background-image: url(./teacher.jpg);
     background-position: center;
     background-size: cover;
@@ -57,12 +58,20 @@ body{
     background-color: seagreen;
     margin: auto;
     cursor: pointer;
-    text-align: center;
     padding-left: 30px;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+#submit:hover{
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+   
 }
 
 ::placeholder {
-    font-size: 20px;
+    font-size: 15px;
     padding-left: 12px;
     font-style: italic;
 }
@@ -83,3 +92,10 @@ select {
     background-color: #f1f1f1;
 }
 
+optgroup{
+    font-size: 15px;
+}
+
+label{
+    font-size: 15px;
+}

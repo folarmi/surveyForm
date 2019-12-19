@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title> Survey Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Girassol|Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -28,30 +29,31 @@
             </label> 
             
             What subject do i take you? <br>
-            <select name="" id="dropdown" >
+            <select name="" id="dropdown" > <optgroup>
                 <option value="mathematics"> Mathematics </option>
                 <option value="ict"> Information and Communication Technology</option>
                 <option value="QR"> Quantitative Reasoning </option>
                 <option value="BST"> Basic Science and Technology </option>
                 <option value=" Physics"> Physics </option>
                 <option value="Verbal"> Verbal Reasoning </option>
+            </optgroup>
             </select> <br>
             
             Did you enjoy taking my class? <br>
-            <input type="radio" name="enjoy" id=""> Yes
-            <input type="radio" name="enjoy" id=""> No <br>
+           <label for="yes"> <input type="radio" name="enjoy" id="yes"> Yes </label>
+           <label for="no"> <input type="radio" name="enjoy" id=""> No </label> <br>
 
             Would you recommend taking my class to friend? <br>
-            <input type="radio" name="recommend" id=""> Definitely <br>
-            <input type="radio" name="recommend" id=""> Never <br>
-            <input type="radio" name="recommend" id=""> Maybe <br>
+          <label for="Definitely"> <input type="radio" name="recommend" id="Definitely"> Definitely </label>  <br>
+          <label for="never">  <input type="radio" name="recommend" id="never"> Never </label> <br>
+          <label for="maybe">  <input type="radio" name="recommend" id="maybe"> Maybe  </label><br>
 
             What part of my class do you enjoy? (Select all that apply) <br>
-            <input type="checkbox" name="" id="" value="note"> Note Writing <br>
-            <input type="checkbox" name="" id="" value="explain"> Explanation <br>
-            <input type="checkbox" name="" id="" value="handsOn"> Hands on Activities <br>
-            <input type="checkbox" name="" id="" value="group"> Group discussions <br>
-            <input type="checkbox" name="" id="" value="joke"> Cracking of Jokes <br>
+           <label for="note"> <input type="checkbox" name="" id="note" value="note"> Note Writing </label> <br>
+           <label for="explain"> <input type="checkbox" name="" id="explain" value="explain"> Explanation </label> <br>
+           <label for="handsOn"> <input type="checkbox" name="" id="handsOn" value="handsOn"> Hands on Activities </label> <br>
+           <label for="group"><input type="checkbox" name="" id="group" value="group"> Group discussions </label> <br>
+           <label for="jokes"> <input type="checkbox" name="" id="jokes" value="joke"> Cracking of Jokes </label> <br>
 
             What is it you do not like about my class? <br>
             <textarea name="" id="notLike" class = "textArea" cols="30" rows="10"></textarea> <br>
