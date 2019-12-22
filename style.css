@@ -13,6 +13,10 @@ body{
     background-repeat: no-repeat;
 }
 
+#title, #description{
+    color:white;
+}
+
 .upper{
     margin: 0px auto;
     text-align: center;
