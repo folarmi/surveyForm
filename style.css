@@ -1,11 +1,10 @@
 body{
     overflow-x: hidden;
-    /* width: 100%; */
+    color: white;
     box-sizing: border-box;
-    padding-bottom: 60px;
+    /* padding-bottom: 60px; */
     font-size: 20px;
     font-family: 'Lobster', cursive;
-    /* color:white; */
     image-rendering: -webkit-optimize-contrast;
     background-image: url(./teacher.jpg);
     background-position: center;
@@ -20,11 +19,10 @@ body{
 .upper{
     margin: 0px auto;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 .wrapper{
+    padding: 2rem;
     margin:0px auto;
     max-width:800px;
     background-color: teal;
@@ -32,15 +30,17 @@ body{
 }
 
 #survey-form{
-    padding: 30px 5px 35px 45px;
     line-height: 50px;
 }
 
-.textBox{
-    width:95%;
+.text-box{
+    width:90%;
     height: 35px;
+    padding: 16px 20px;
+    border: none;
     border-radius: 4px;
-    text-align: justify;
+    margin: 8px 0;
+    box-shadow: 1px 1px 6px rgba(0,0,0,0.2) inset, -1px -1px 6px rgba(0,0,0,0.2) inset;
 }
 
 .textArea{
@@ -54,15 +54,18 @@ body{
 }
 
 button{
-    background-color:#7FFFD4;
+    width: 15.6rem;
+    height: 2.6rem;
+    display: block;
+    margin: auto;
+    background-color:white;
     border: none;
-    padding: 15px 32px;
     text-decoration: none;
     border-radius: 5px;
 }
 
 button:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.6), 0 17px 50px 0 rgba(0,0,0,0.6);
 }
 
 button:active {
@@ -78,32 +81,20 @@ button:focus:active {
   box-shadow: none;
 }
 
-
-::placeholder {
-    font-size: 15px;
-    padding-left: 12px;
-    font-style: italic;
-}
-
-input[ type= text] ,
-input[ type= email] ,
-input[ type= number] {
-    padding: 12px 20px;
-    margin: 8px 0;
+input {
     box-sizing: border-box;
+    font-size: 15px;
 }
 
-select {
-    width: 80%;
-    padding: 16px 20px;
-    border: none;
-    border-radius: 4px;
-    background-color: #f1f1f1;
+select[name="subject"] {
+    max-width: 350px;
+    background-color: white;
+    color: black;
 }
 
 optgroup{
     font-size: 15px;
-    font-family: 'Lobster', cursive;
+    color: black;
 }
 
 label{

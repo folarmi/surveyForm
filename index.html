@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,62 +9,81 @@
     <link href="https://fonts.googleapis.com/css?family=Girassol|Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="upper">
-            <h1 id="title"> My Survey Form</h1>
-            <p id="description"> A survey form to help improve my method of teaching</p>
-    </div>
 
     <div class="wrapper">
+        <div class="upper">
+            <h1 id="title"> My Survey Form</h1>
+            <p id="description"> A survey form to help improve my method of teaching</p>
+        </div>
+
         <form action="" id="survey-form">
-            Name <br> <label for="name" id="name-label"> 
-                <input type="text" name="" id="name" class = "textBox" placeholder="Please enter your name" autofocus>
-            </label>  <br>
+            <div>
+                <span class="input-label">Name</span>
 
-            Email <br> <label for="email" id="email-label"> 
-                <input type="email" name="" id="email"  class = "textBox" placeholder="Enter your email">
-            </label>  <br>
+                <br>
+                <label for="name" id="name-label">
+                    <input type="text" name="" id="name" class="text-box" placeholder="Please enter your name"
+                        autofocus>
+                </label>
+            </div>
 
-            Age <br> <label for="age" id="age-label">
-                <input type="number" name="" id="number" class = "textBox" placeholder="How old are you?" min="0" max="16"> <br>
-            </label> 
-            
+            <div>
+                <span class="input-label">Email</span>
+                <br>
+                <label for="email" id="email-label">
+                    <input type="email" name="" id="email" class="text-box" placeholder="Enter your email">
+                </label>
+            </div>
+
+            <div>
+                <span class="input-label">Age</span>
+                <br> <label for="age" id="age-label">
+                    <input type="number" name="" id="number" class="text-box" placeholder="How old are you?" min="0"
+                        max="16">
+            </div>
+            </label>
+
             What subject do i take you? <br>
-            <select name="" id="dropdown" > <optgroup>
-                <option value="mathematics"> Mathematics </option>
-                <option value="ict"> Information and Communication Technology</option>
-                <option value="QR"> Quantitative Reasoning </option>
-                <option value="BST"> Basic Science and Technology </option>
-                <option value=" Physics"> Physics </option>
-                <option value="Verbal"> Verbal Reasoning </option>
-            </optgroup>
+            <select name="subject" id="dropdown" class="text-box">
+                <optgroup>
+                    <option value="mathematics" > Mathematics </option>
+                    <option value="ict"> Information and Communication Technology</option>
+                    <option value="QR"> Quantitative Reasoning </option>
+                    <option value="BST"> Basic Science and Technology </option>
+                    <option value=" Physics"> Physics </option>
+                    <option value="Verbal"> Verbal Reasoning </option>
+                </optgroup>
             </select> <br>
-            
+
             Did you enjoy taking my class? <br>
-           <label for="yes"> <input type="radio" name="enjoy" id="yes"> Yes </label>
-           <label for="no"> <input type="radio" name="enjoy" id=""> No </label> <br>
+            <label for="yes"> <input type="radio" name="enjoy" id="yes"> Yes </label>
+            <label for="no"> <input type="radio" name="enjoy" id=""> No </label> <br>
 
             Would you recommend taking my class to friend? <br>
-          <label for="Definitely"> <input type="radio" name="recommend" id="Definitely"> Definitely </label>  <br>
-          <label for="never">  <input type="radio" name="recommend" id="never"> Never </label> <br>
-          <label for="maybe">  <input type="radio" name="recommend" id="maybe"> Maybe  </label><br>
+            <label for="Definitely"> <input type="radio" name="recommend" id="Definitely"> Definitely </label> <br>
+            <label for="never"> <input type="radio" name="recommend" id="never"> Never </label> <br>
+            <label for="maybe"> <input type="radio" name="recommend" id="maybe"> Maybe </label><br>
 
             What part of my class do you enjoy? (Select all that apply) <br>
-           <label for="note"> <input type="checkbox" name="" id="note" value="note"> Note Writing </label> <br>
-           <label for="explain"> <input type="checkbox" name="" id="explain" value="explain"> Explanation </label> <br>
-           <label for="handsOn"> <input type="checkbox" name="" id="handsOn" value="handsOn"> Hands on Activities </label> <br>
-           <label for="group"><input type="checkbox" name="" id="group" value="group"> Group discussions </label> <br>
-           <label for="jokes"> <input type="checkbox" name="" id="jokes" value="joke"> Cracking of Jokes </label> <br>
+            <label for="note"> <input type="checkbox" name="" id="note" value="note"> Note Writing </label> <br>
+            <label for="explain"> <input type="checkbox" name="" id="explain" value="explain"> Explanation </label> <br>
+            <label for="handsOn"> <input type="checkbox" name="" id="handsOn" value="handsOn"> Hands on Activities
+            </label> <br>
+            <label for="group"><input type="checkbox" name="" id="group" value="group"> Group discussions </label> <br>
+            <label for="jokes"> <input type="checkbox" name="" id="jokes" value="joke"> Cracking of Jokes </label> <br>
 
             What is it you do not like about my class? <br>
-            <textarea name="" id="notLike" class = "textArea" cols="30" rows="10"></textarea> <br>
+            <textarea name="" id="notLike" class="text-box" cols="30" rows="10"></textarea> <br>
 
             Any comments or suggestions? <br>
-            <textarea name="" id=""  class ="textArea" cols="30" rows="10"></textarea> <br>
+            <textarea name="" id="" class="text-box" cols="30" rows="10"></textarea> <br>
 
             <button type="submit" id="submit"> Submit </button>
-            
+
         </form>
     </div>
 </body>
+
 </html>
