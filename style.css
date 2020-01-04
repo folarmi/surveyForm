@@ -90,9 +90,11 @@ input {
 }
 
 select[name="subject"] {
+    padding: 8px;
     max-width: 350px;
     background-color: white;
     color: black;
+    display: block;
 }
 
 optgroup{
